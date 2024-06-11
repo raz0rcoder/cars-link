@@ -1,0 +1,208 @@
+.pt-0{
+	padding-top: 0;
+}
+.mb-0{
+	margin-bottom: 0;
+}
+.p-0{
+	padding: 0;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.hint{
+	font-style: italic;
+	font-size: 14px;
+}
+
+.inner-banner {
+	background-image: url('../img/pads-banner.png');
+	background-size: cover;
+	height: 280px;
+	position: relative;
+}
+	.inner-banner .overlay {
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+	}
+	.inner-banner .title {
+		bottom: 60px;
+		color: #fff;
+		font-family: ksfixbold;
+		font-size: 14px;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 1;
+	}
+.seating1-banner{
+	background-image: url('../s/img/rear-occupant-banner.png');
+}
+.seating2-banner{
+	background-image: url('../s/img/Sportage_SeatAdjustment.png');
+}
+.seating3-banner{
+	background-image: url('../s/img/manual-adjustable-drivers-seat-banner.png');
+}
+.seating4-banner{
+	background-image: url('../s/img/driver-position-memory-system-banner.png');
+}
+.seating5-banner{
+	background-image: url('../s/img/Reclining_FoldingSeats.png');
+}
+.seating6-banner{
+	background-image: url('../s/img/unfastening-center-seat-belt-banner.png');
+}
+
+.top-bar-title{
+	background-color: #C7C8CA;
+	padding: 15px 35px 15px;
+}
+
+	.top-bar-title .title{
+		color: #05141F;
+	    font-family: ksfixbold;
+	    font-size: 20px;
+	    margin-bottom: 0;
+	    text-align: center;
+	}
+
+.global-intro {
+
+	background-color: #fff;
+
+	border-radius: 30px 30px 0 0;
+
+	font-family: ksfixregular;
+
+	font-size: 18px;
+
+	line-height: 30px;
+
+	margin-top: -30px;
+
+	padding: 26px 35px 30px;
+
+	position: relative;
+	line-height: 1.8;
+
+}
+
+	.global-intro .title {
+
+		color: #05141F;
+
+		font-family: ksfixbold;
+
+		font-size: 20px;
+
+		margin-bottom: 23px;
+
+		text-align: center;
+		line-height: 1.4;
+
+	}
+		.global-intro .title sup{
+			font-family: ksfixregular;
+			font-size: .65em;
+		}
+
+	.global-intro ol,
+
+	.global-intro ul {
+
+		padding-left: 20px;
+		margin-bottom: 1.5rem;
+
+	}
+	.global-intro p{
+		margin-bottom: 1.5rem;
+	}
+	.global-intro *:last-child{
+		margin-bottom: 0;
+	}
+
+	.global-intro hr{
+		margin: 1.5rem 0;
+	    border-top-color: #707070;
+	    opacity: 1;
+	}
+
+
+
+.global-quicktips {
+
+	background-color: #6D6E71;
+
+	color: #fff;
+
+	font-family: ksfixregular;
+
+	font-size: 18px;
+
+	padding: 30px 37px;
+	clear: both;
+	line-height: 1.8;
+
+}
+
+	.global-quicktips .title {
+
+		font-family: ksfixbold;
+
+		margin-bottom: 15px;
+
+	}
+
+	.global-quicktips ul li {
+
+		line-height: 30px;
+
+	}
+	.global-quicktips *:last-child{
+		margin-bottom: 0;
+	}
+
+.inner-reminders {
+	color: #05141F;
+	font-family: ksfixregular;
+	font-size: 18px;
+	padding: 37px;
+	line-height: 1.8;
+}
+	.inner-reminders .title {
+		font-family: ksfixbold;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+	.inner-reminders ul {
+		padding-left: 20px;
+	}
+		.inner-reminders ul li {
+			line-height: 30px;
+		}
+
+.table-maintenance{
+	font-size: 12px;
+	margin: 20px 0 0 !important;
+	line-height: 1.6;
+}
+	.table-maintenance th, .table-maintenance td{
+		padding: 7px 5px;
+	}
+	.table-maintenance thead th, .table-maintenance thead td{
+		padding: 0 5px;
+	}
+	.table-maintenance tbody tr:nth-child(even){
+		background-color: #C7C8CA;
+	}
+	.table-maintenance .row-title{
+		padding-left: 30px;
+		padding-right: 10px;
+	}
+	.synthetic-oil-banner{
+		background-image: url('../m/img/synthetic-oil-banner.png');
+	}
