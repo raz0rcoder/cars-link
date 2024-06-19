@@ -18,6 +18,12 @@ For admin area
 localhost:3000/admin/index.html
 ```
 
+Customise Backend Check on `config.ts`
+
+Update from [https://fiverr.com/creativitas](https://fiverr.com/creativitas)
+
+------
+
 ## Attributions
 
 ### NextJS
