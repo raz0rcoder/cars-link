@@ -8,6 +8,16 @@ npm install
 npm run dev
 ```
 
+```
+localhost:3000
+```
+
+For admin area
+
+```
+localhost:3000/admin/index.html
+```
+
 ## Attributions
 
 ### NextJS

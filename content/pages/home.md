@@ -1,5 +1,5 @@
 ---
-title: Cars Page
+title: Cars Home Page
 blocks:
   - features:
       - icon: /img/key.png
@@ -42,7 +42,7 @@ blocks:
   - blogImage: /img/b4.png
     message: Vehicle Camera Tipssss
     _template: BlogSection
-carName: Base Template
+carName: Car Home
 bannerImage: /img/banner.png
 Footer: >-
   Using this GuidePrivacy | Terms of Service | Copyright © 2024 Car America,

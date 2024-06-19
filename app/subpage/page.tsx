@@ -9,8 +9,8 @@ export default async function Subpage({
   params: { slug: string }
 }) {
   const result = await client.queries.subpage({ 
-    //relativePath: "base_template.md" 
-    relativePath: `${params.slug}.md`,
+    relativePath: "base_template.md" 
+   // relativePath: `${params.slug}.md`,
   })
   return <SubpageComponent {...result} />
 }

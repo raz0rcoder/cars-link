@@ -1,5 +1,5 @@
 ---
-bannerName: Smart Key with Remote Start
+bannerName: Smart Key with Remote Start Car 2 2024
 bannerImage: /img/bwt-1.png
 blocks:
   - contentName: Smart Key with Remote Start

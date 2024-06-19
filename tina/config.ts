@@ -24,11 +24,37 @@ export default defineConfig({
         label: "Page",
         path: "content/pages",
         format: "md",
-        ui: {
-          router: (props) => {
-            return "/"
+				
+		// fiverr.com/creativitas setup
+     	ui: {
+          router: ({ document }) => {
+            if (document._sys.filename === 'base_template') {
+              return '/'
+            }
+			// example if your need to add another page
+//          if (document._sys.filename === 'home') {
+//            return `/home/`
+//          }
+//			example for your about page
+//          if (document._sys.filename === 'about') {
+//            return `/about/`
+//          }
+            if (document._sys.filename === '2024') {
+              return `/`
+            }
+            if (document._sys.filename === '2025') {
+              return `/2025/${document._sys.filename}`
+            }
+            return undefined
           },
         },
+		
+		// your default ui
+    //    ui: {
+    //      router: (props) => {
+    //        return "/"
+    //      },
+    //    },
         fields: [
           {
             type: "string",
@@ -114,11 +140,21 @@ export default defineConfig({
         label: "Subpage",
         path: "content/subpage",
         format: "md",
-        ui: {
-          router: (props) => {
-            return "/subpage"
-          },
-        },
+		
+		ui: {
+		itemProps: (item) => {
+		return { label: item?.bannerName };
+			},
+		},
+		
+		
+		// default first setup
+    //    ui: {
+    //      router: (props) => {
+    //        return "/subpage"
+    //      },
+    //    },
+	
         fields: [
           {
             type: "string",

@@ -1,5 +1,5 @@
 ---
-carName: Car 1
+carName: Car 1 pages 2025
 bannerImage: /img/banner.png
 blocks:
   - features:
