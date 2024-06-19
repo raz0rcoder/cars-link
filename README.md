@@ -1,11 +1,7 @@
 ## Getting started
 
 ```
-npm install
-```
-
-```
-npm run dev
+npm install && npm run dev
 ```
 
 ```
@@ -18,7 +14,12 @@ For admin area
 localhost:3000/admin/index.html
 ```
 
-Customise Backend Check on `config.ts`
+Change Log : 
+
++ Setup Backend Tina 
++ Fix Backend to to access all Pages folder
++ Fix Backend to to access all SubPages folder
++ Delete Node Modules folder (No need to push Node Modules Folder on Repo)
 
 Update from [https://fiverr.com/creativitas](https://fiverr.com/creativitas)
 
